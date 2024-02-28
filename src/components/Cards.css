@@ -1,0 +1,37 @@
+.parent-div{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    /* height: 10%; */
+}
+
+@media (min-width:200px) and (max-width: 767px){
+    .parent-div{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .card{
+        width: 100%;
+    }
+    @media (min-width: 500px) and (max-width: 767px){
+        .parent-div{
+            justify-content: center;
+        }
+        .card{
+            width: 46%;
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1024px){
+    .parent-div{
+        gap: 30px;
+    }
+    .card{
+        width: 30%;
+    }
+}

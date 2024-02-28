@@ -1,0 +1,21 @@
+.form {
+  background-color: rgb(151, 191, 254);
+}
+
+.form-parent {
+  width: 50%;
+}
+.form-control{
+    margin-block: 10px;
+    height: 50px;
+}
+
+.row {
+  gap: 15px;
+}
+
+@media (min-width:200px) and (max-width: 767px){
+    .form-parent{
+        width: 100%;
+    }
+}

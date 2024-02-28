@@ -1,0 +1,19 @@
+.visa-parent{
+    text-align: center;
+    font-weight: bold;
+}
+.visaAssis{
+    text-align: justify;
+}
+.key-feature{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    background-image: "/Images/visa bg.jpg";
+}
+div p{
+    font-style: italic;
+}
+div h6{
+    text-decoration: underline;
+}

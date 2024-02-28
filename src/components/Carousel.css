@@ -1,0 +1,31 @@
+#mySwiper{
+    width: 50%;
+    margin-inline: 0px;
+}
+.swiper-image{
+    height: 100%;
+    width: 100%;
+}
+.swiper-button-next, .swiper-button-prev{
+    color: red;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    background-color: red;
+    border: 1px solid white;
+}
+
+@media (min-width: 200px) and (max-width:767px) {
+    #mySwiper{
+        width: 100%;
+    }
+}
+@media (min-width: 767px) and (max-width:1024px){
+    .swiper-image{
+        height: auto;
+    }
+    .swiper-slide{
+        display: flex;
+        align-items: center;
+    }
+}
+

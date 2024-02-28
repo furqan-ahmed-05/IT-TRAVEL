@@ -1,0 +1,13 @@
+.ramzan{
+    display: flex;
+    gap: 20px;
+    align-items: center;   
+}
+
+.ramzanpkg1{
+   width: 48%;
+}
+
+.ramzanpkg2{
+     width: 48%;
+}

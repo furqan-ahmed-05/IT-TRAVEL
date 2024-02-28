@@ -1,0 +1,58 @@
+.section-width{
+  max-width: 1400px;
+  margin: auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.section-padding{
+  padding: 40px 0px;
+}
+.center{
+  text-align: center;
+}
+
+.des-text{
+  background: linear-gradient(to top, #3333cc 0%, #ccffff 100%);
+  color: white;
+}
+
+.parent-des{
+  background-color:papayawhip;
+}
+
+.abt{
+  font-style: italic;
+}
+
+.sub-about{
+background-color:gainsboro;
+color:brown
+}
+.sub-about.h5{
+  color: black;
+}
+
+.parent-hotel{
+ background: linear-gradient(to top, #e66666 0%, #f1c9c9 100%);
+ color: white;
+}
+
+.banner{
+  display: flex;
+  gap: 20px;
+}
+
+.footer{
+  background-color: dodgerblue;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-style:italic
+}
+
+.parent.div{
+  max-height: 50px;
+}

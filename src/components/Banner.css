@@ -1,0 +1,10 @@
+.banner{
+    display: flex;
+    gap: 30px;
+}
+
+@media (min-width:200px) and (max-width:767px){
+    .banner{
+        flex-direction: column;
+    }
+}
