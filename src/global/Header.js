@@ -58,14 +58,16 @@ export default function Header() {
         <header ref={headerRef}>
           <div className="upper-nav">
             <div className="logo">
-              <Link className="logo-link" to="/">IT AIR TRAVELS & TOURS</Link>
+              <Link className="logo-link" to="/">
+                IT AIR TRAVELS & TOURS
+              </Link>
             </div>
 
             <div className="contact">
-              <a href="tel: 051 456 7890" className="telephone">
-                <CallOutlinedIcon className="call-outlined" /> 051 111 786 945
+              <a href="tel: 03 111 786 946" className="telephone">
+                <CallOutlinedIcon className="call-outlined" /> 03 111 786 946
               </a>
-              <button className="header-btn">WhatsApp</button>
+              {/* <button className="header-btn">WhatsApp</button> */}
             </div>
           </div>
           <nav className={`${sideNav ? "toggle-side-nav" : ""}`}>
@@ -95,12 +97,7 @@ export default function Header() {
                       UAE
                     </Link>
                   </li>
-                  
-                  <li className="nav-list-item">
-                    <Link className="nav-list-item-link" to="/azerbaijan">
-                      Azerbaijan
-                    </Link>
-                  </li>
+
                   <li className="nav-list-item">
                     <Link className="nav-list-item-link" to="/morevisas">
                       More
@@ -127,7 +124,7 @@ export default function Header() {
                       Ramzan Umrah Packages
                     </Link>
                   </li>
-                                   
+
                   <li className="nav-list-item">
                     <Link className="nav-list-item-link" to="/threestar">
                       3 Star Packages
@@ -151,17 +148,16 @@ export default function Header() {
                       Umrah Calculator
                     </Link>
                   </li>
-
                 </ul>
               </li>
-              
+
               <li className="nav-list-item">
                 <Link
                   className="nav-list-item-link"
                   to="/services"
                   // onClick={enableDropDown}
                 >
-                  Services 
+                  Services
                   {/* <KeyboardArrowDownIcon id="down-arrow" /> */}
                 </Link>
                 {/* <ul className={`sub-list ${toggleDropDown ? "dropdown" : ""}`}>
@@ -196,7 +192,7 @@ export default function Header() {
 
                 </ul> */}
               </li>
-                            
+
               <li className="nav-list-item">
                 <Link className="nav-list-item-link" to="/hotel">
                   Hotel
@@ -207,7 +203,7 @@ export default function Header() {
                   Bank Details
                 </Link>
               </li>
-                            
+
               <li className="nav-list-item">
                 <Link className="nav-list-item-link" to="/gallery">
                   Gallery
@@ -234,7 +230,5 @@ export default function Header() {
         </header>
       </div>
     </>
-    
   );
 }
-

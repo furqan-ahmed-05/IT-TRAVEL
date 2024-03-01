@@ -34,6 +34,15 @@ function MoreVisa() {
 
         <div className="responsive">
           <div className="gallery">
+            <a target="_blank" href="/Images/Turkey.jpg">
+              <img src="/Images/Turkey.jpg" alt="turkey" />
+            </a>
+            <div className="desc">Turkey</div>
+          </div>
+        </div>
+
+        <div className="responsive">
+          <div className="gallery">
             <a target="_blank" href="/Images/Singapore.png">
               <img src="/Images/Singapore.png" alt="singapore" />
             </a>
@@ -65,15 +74,6 @@ function MoreVisa() {
               <img src="/Images/Canada.png" alt="canada" />
             </a>
             <div className="desc">Canada</div>
-          </div>
-        </div>
-
-        <div className="responsive">
-          <div className="gallery">
-            <a target="_blank" href="/Images/Turkey.jpg">
-              <img src="/Images/Turkey.jpg" alt="turkey" />
-            </a>
-            <div className="desc">Turkey</div>
           </div>
         </div>
 
