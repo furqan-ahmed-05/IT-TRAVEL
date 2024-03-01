@@ -14,14 +14,14 @@ function MoreVisa() {
           </div>
         </div>
 
-        {/* <div className="responsive">
+        <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="/Images/Australia.jpg">
               <img src="/Images/Australia.jpg" alt="Australia" />
             </a>
             <div className="desc">Australia</div>
           </div>
-        </div> */}
+        </div>
 
         <div className="responsive">
           <div className="gallery">
@@ -32,14 +32,14 @@ function MoreVisa() {
           </div>
         </div>
 
-        {/* <div className="responsive">
+        <div className="responsive">
           <div className="gallery">
             <a target="_blank" href="/Images/Turkey.jpg">
               <img src="/Images/Turkey.jpg" alt="turkey" />
             </a>
             <div className="desc">Turkey</div>
           </div>
-        </div> */}
+        </div>
 
         <div className="responsive">
           <div className="gallery">
