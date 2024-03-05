@@ -147,6 +147,7 @@ nav .nav-list-item:hover .sub-list {
 }
 
 .telephone {
+  font-weight: bold;
   background-color: #ffdf00;
   color: #2e2e2e;
   text-decoration: none;

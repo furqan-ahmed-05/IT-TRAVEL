@@ -80,7 +80,7 @@ export default function Header() {
               <li className="nav-list-item">
                 <Link
                   className="nav-list-item-link"
-                  to="/"
+                  to="#"
                   onClick={enableDropDown}
                 >
                   Visa <KeyboardArrowDownIcon id="down-arrow" />
@@ -108,7 +108,7 @@ export default function Header() {
               <li className="nav-list-item">
                 <Link
                   className="nav-list-item-link"
-                  to="/"
+                  to="#"
                   onClick={enableDropDown}
                 >
                   Umrah <KeyboardArrowDownIcon id="down-arrow" />

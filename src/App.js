@@ -21,28 +21,18 @@ import FourStar from "./components/FourStar";
 import UmrahCalc from "./components/UmrahCalc";
 import UmrahGuide from "./components/UmrahGuide";
 
-// Services
-// import TravelInsurance from "./components/TravelInsurance";
-// import VisaAssistance from "./components/VisaAssistance";
-// import HotelAccomadation from "./components/HotelAccomadation";
-// import RentCar from "./components/RentCar";
-// import Ticketing from "./components/Ticketing";
-
 //Gallery
 import Gallery from "./components/Gallery";
-// import Chat from "./components/Chat";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { Details } from "@mui/icons-material";
 import ContactUs from "./components/ContactUs";
 import Services from "./components/Services";
-import { WhatsApp } from "@mui/icons-material";
+import SocialMedia from "./components/SocialMedia";
 function App() {
   return (
     <>
       <Header />
-      {/* <Chat/> */}
       <Whatsapp />
-
       <Routes>
         <Route
           exact
@@ -89,7 +79,9 @@ function App() {
 
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+
       <br />
+      <SocialMedia />
     </>
   );
 }
